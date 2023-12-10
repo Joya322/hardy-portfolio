@@ -29,6 +29,9 @@
 .margin-bottom {
   margin-bottom: 130px;
 }
+.max-width {
+  max-width: 1140px;
+}
 /* header start */
 .header {
   display: flex;
@@ -128,9 +131,8 @@ nav ul li > a {
   border-radius: 10px;
   background-color: #fff8f3;
   text-align: center;
-  max-width: 950px;
   margin: 0px auto 130px auto;
-  padding: 90px 100px;
+  padding: 90px 0px;
 }
 .section-title {
   color: #181818;
@@ -144,7 +146,7 @@ nav ul li > a {
   font-weight: 400;
   margin-bottom: 30px;
 }
-.info{
+.info {
   display: flex;
   justify-content: space-evenly;
 }
@@ -159,3 +161,89 @@ nav ul li > a {
   font-weight: 700;
 }
 /* about section end */
+
+/* what-i-do section start */
+.what-i-do-section {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.what-i-do-section .section-desc {
+  margin-bottom: 50px;
+}
+.cards {
+  margin-top: 20px;
+  display: flex;
+}
+.card {
+  text-align: left;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  width: 201px;
+  height: 313px;
+  padding: 32px 33px;
+  margin-right: 24px;
+}
+.last-card {
+  margin-right: 0px;
+}
+.card > .info-input {
+  color: #181818;
+  margin-top: 28px;
+  margin-bottom: 20px;
+}
+.card > .info-level {
+  font-size: 16px;
+  width: 201px;
+}
+/* what-i-do section end */
+
+/* resume section start */
+.resume-section {
+  margin-bottom: 113px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.resume-section > .section-title {
+  margin-bottom: 100px;
+  text-align: center;
+}
+.parts{
+  display: flex;
+  gap: 24px;
+  margin-bottom: 50px;
+}
+.resume-part-title {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.resume-part-title2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.resume-year {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.resume-desc {
+  font-size: 16px;
+  max-width: 510px;
+}
+.resume-small-part {
+  /* padding-right: 47px; */
+}
+.hr-rull {
+  width: 558px;
+  height: 1px;
+  background-color: #D1D1D1;
+  border: none;
+  margin: 30px 0px;
+}
+.btn-div{
+  text-align: center;
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: center; */
+}
+/* resume section end */
